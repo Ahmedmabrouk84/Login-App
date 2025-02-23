@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #457846;
+  --btn-color: #59ca7f;
+  --bg-input: #b4d6b4;
+  --text-color: white;
+  --bg-art: #161f16;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", serif;
+}
+
+nav {
+  background-color: var(--btn-color);
+}
+
+.home {
+  min-height: 100vh;
+  background-color: var(--main-color);
+}

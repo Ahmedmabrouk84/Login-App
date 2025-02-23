@@ -16,9 +16,14 @@ body {
   margin: 0;
   font-family: "Roboto", serif;
 }
-
-.w-45{
-  width: 45%;
+.vh-75 {
+  min-height: 70vh;
+}
+.w-45 {
+  width: 42%;
+}
+a{
+   color: var(--btn-color);
 }
 .left-layer {
   position: absolute;
@@ -29,7 +34,7 @@ body {
   border-radius: 50%;
   background-color: var(--btn-color);
 }
-.right-layer{
+.right-layer {
   position: absolute;
   width: 740.1296px;
   height: 50.0081rem;
@@ -45,5 +50,42 @@ body {
   position: relative;
   overflow: hidden;
 }
-
+.register .register-content {
+  color: var(--text-color);
+}
+.register .register-content h1 {
+  font-size: 37px;
+  font-weight: 700;
+}
+.register .register-content p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.register .form-group {
+  position: relative;
+}
+.register .form-group input {
+  background-color: var(--bg-input);
+  color: var(--bg-art);
+}
+.register .form-group input:focus {
+  box-shadow: 0 0.5625rem 0.125rem var(--btn-color);
+}
+.register .form-group i {
+  font-size: 1.25rem;
+  position: absolute;
+  color: var(--bg-art);
+  right: 0.625rem;
+  top: 0.5rem;
+}
+.register .Register-btn {
+  background-color: var(--btn-color);
+}
+.register .Register-btn button {
+  color: var(--bg-art);
+  font-weight: 500;
+}
+.register p{
+  color: var(--text-color);
+}
 
