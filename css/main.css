@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #457846;
+  --btn-color: #59ca7f;
+  --bg-input: #b4d6b4;
+  --text-color: white;
+  --bg-art: #161f16;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", serif;
+}
+
+.w-45{
+  width: 45%;
+}
+.left-layer {
+  position: absolute;
+  width: 50.0081rem;
+  height: 50.0081rem;
+  top: -28.75rem;
+  left: -34.375rem;
+  border-radius: 50%;
+  background-color: var(--btn-color);
+}
+.right-layer{
+  position: absolute;
+  width: 740.1296px;
+  height: 50.0081rem;
+  right: -29.1956rem;
+  bottom: -30.75rem;
+  border-radius: 50%;
+  background-color: var(--btn-color);
+}
+
+.register {
+  min-height: 100vh;
+  background-color: var(--main-color);
+  position: relative;
+  overflow: hidden;
+}
+
+
