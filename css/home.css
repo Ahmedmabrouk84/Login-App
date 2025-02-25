@@ -19,9 +19,18 @@ body {
 
 nav {
   background-color: var(--btn-color);
+  width: 100%;
 }
-
+nav .navbar-brand,
+nav .nav-item .nav-link {
+  color: var(--bg-art);
+  font-weight: 600;
+}
 .home {
   min-height: 100vh;
   background-color: var(--main-color);
+}
+
+.vh-60{
+    min-height: 80vh;
 }

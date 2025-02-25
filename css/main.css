@@ -22,8 +22,11 @@ body {
 .w-45 {
   width: 42%;
 }
-a{
-   color: var(--btn-color);
+.row-width {
+  width: 42%;
+}
+a {
+  color: var(--btn-color);
 }
 .left-layer {
   position: absolute;
@@ -85,7 +88,34 @@ a{
   color: var(--bg-art);
   font-weight: 500;
 }
-.register p{
+.register p {
   color: var(--text-color);
 }
+#input-msg,
+#emailExist,
+#emailExist {
+  font-size: 17px;
+  font-weight: 500;
+}
 
+@media (max-width: 62rem) {
+  .left-layer {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+  }
+  .right-layer {
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .row-width {
+    width: 90%;
+  }
+}

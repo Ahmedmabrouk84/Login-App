@@ -16,12 +16,11 @@
     <title>Login App</title>
   </head>
   <body>
-
     <section class="register">
       <div class="container">
         <div class="left-layer"></div>
         <div class="right-layer"></div>
-        <div class="row vh-75 w-45 text-center mx-auto">
+        <div class="row vh-75 row-width text-center mx-auto">
           <div class="register-content align-content-end my-2">
             <h1>Login</h1>
             <p>Please enter your Login and your Password</p>
@@ -45,9 +44,26 @@
                 placeholder="Password"
               />
             </div>
-
+            <p
+              class="alert alert-danger text-danger d-none w-75 mx-auto p-2"
+              id="inputMsg"
+            >
+              All Inputs Are Required
+            </p>
+            <p
+              class="alert alert-danger text-danger d-none w-75 mx-auto p-2"
+              id="Incorrect"
+            >
+              Email Or Password Is InValid
+            </p>
+            <p
+              class="alert alert-success text-danger d-none w-75 mx-auto p-2"
+              id="msgSuccess"
+            >
+              Success
+            </p>
             <div class="Register-btn rounded w-50 mx-auto">
-              <button class="btn w-100">Login</button>
+              <button class="btn w-100" id="loginBtn">Login</button>
             </div>
             <p class="mt-3">
               Not a member yet? ?<a
